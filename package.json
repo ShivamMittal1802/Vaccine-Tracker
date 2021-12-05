@@ -1,0 +1,22 @@
+{
+  "name": "2cowinproject",
+  "version": "1.0.0",
+  "description": "covid-19 vaccination slots tracker for India",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "commander": "^8.0.0",
+    "inquirer": "^8.1.1",
+    "node-notifier": "^10.0.0",
+    "tty-table": "^4.1.3"
+  },
+  "bin": {
+    "cowin": "/bin/index.js"
+  }
+}
